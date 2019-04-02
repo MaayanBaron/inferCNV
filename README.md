@@ -1,12 +1,11 @@
 # inferCNV
 
-This script infers Copy Number variation (CNV) from scRNA-seq data inspired by Tirosh et al. 2014 (just in Matlab). 
-The output is a figure showing the CNV profile for each cells (every row is a cell) 
+## This script infers Copy Number variation (CNV) from scRNA-seq data inspired by Tirosh et al. 2014 (just in Matlab). The output is a figure showing the CNV profile for each cells (every row is a cell) 
  
 Dependencies: MAGIC as an imputution method https://github.com/KrishnaswamyLab/MAGIC
 
-                           INPUT ARGUMENTS
-                           ---------------
+## INPUT ARGUMENTS
+   ---------------
    A_fil - a filtered expression matrix (cells as columns, genes as rows)
    clustLabel - a numeric vector indicating the cluster for each cell in A
    (cancer, immune, stroma...)
@@ -20,8 +19,8 @@ Dependencies: MAGIC as an imputution method https://github.com/KrishnaswamyLab/M
    set of genes to remove - if wanted, you can remove specific genes from
    the analysis (for example: differentially expressed genes)
 
-                         OUTPUT ARGUMENTS
-                         ----------------
+## OUTPUT ARGUMENTS
+   ----------------
    The results of this script is infered CNV from the scRNA-seq plotted 
    on a graph
 
