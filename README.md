@@ -5,7 +5,7 @@
 Dependencies: MAGIC as an imputution method https://github.com/KrishnaswamyLab/MAGIC
 
 ## INPUT ARGUMENTS
-   ---------------
+
    A_fil - a filtered expression matrix (cells as columns, genes as rows)
    clustLabel - a numeric vector indicating the cluster for each cell in A
    (cancer, immune, stroma...)
@@ -20,7 +20,7 @@ Dependencies: MAGIC as an imputution method https://github.com/KrishnaswamyLab/M
    the analysis (for example: differentially expressed genes)
 
 ## OUTPUT ARGUMENTS
-   ----------------
+   
    The results of this script is infered CNV from the scRNA-seq plotted 
    on a graph
 
